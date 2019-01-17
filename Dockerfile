@@ -1,4 +1,4 @@
-FROM debian:bionic
+FROM debian:stable
 
 MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
