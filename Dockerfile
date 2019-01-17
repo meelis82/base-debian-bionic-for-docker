@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM debian:stretch
 
 MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
