@@ -29,8 +29,8 @@ module.exports = function(grunt) {
         options: {
           patterns: [
             {
-              match: 'dockerizedrupal/base-debian-scratch:' + current_version,
-              replacement: 'dockerizedrupal/base-debian-scratch:' + new_version
+              match: 'dockerizedrupal/base-debian-stretch:' + current_version,
+              replacement: 'dockerizedrupal/base-debian-stretch:' + new_version
             }
           ],
           usePrefix: false
