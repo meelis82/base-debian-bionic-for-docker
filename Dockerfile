@@ -1,8 +1,8 @@
-FROM debian:jessie
+FROM debian:latest
 
-MAINTAINER Jürgen Viljaste <j.viljaste@gmail.com>
+MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
-LABEL vendor=dockerizedrupal.com
+LABEL vendor=adm.ee
 
 ENV TERM xterm
 

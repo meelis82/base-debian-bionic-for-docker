@@ -11,10 +11,10 @@ MEMORY_SIZE = 512
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
 
-  config.vm.hostname = "base-debian-jessie"
+  config.vm.hostname = "base-debian-bionic"
 
   config.vm.provider "virtualbox" do |v|
-    name = "dockerizedrupal-base-debian-jessie-for-docker-" + VERSION
+    name = "dockerizedrupal-base-debian-bionic-for-docker-" + VERSION
 
     name.gsub!(".", "-")
 
