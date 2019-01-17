@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:bionic
 
 MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
