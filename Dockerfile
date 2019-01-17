@@ -1,4 +1,4 @@
-FROM debian:stable
+FROM debian:scratch
 
 MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
