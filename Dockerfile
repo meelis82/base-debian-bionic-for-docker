@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:buster
 
 MAINTAINER Meelis Valgeväli <meelis82@gmail.com>
 
